@@ -2,13 +2,13 @@ local lsp_zero = require('lsp-zero')
 
 lsp_zero.on_attach(function(_, bufnr)
     lsp_zero.default_keymaps({ buffer = bufnr })
-    lsp_zero.buffer_autoformat()
 end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
     ensure_installed = {
         'gopls',
+        'html',
         'jsonls',
     },
     handlers = {
@@ -18,6 +18,7 @@ require('mason-lspconfig').setup({
 
 lsp_zero.setup_servers({
     'gopls',
+    'html',
     'jsonls',
 })
 
