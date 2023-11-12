@@ -19,11 +19,11 @@ require("lazy").setup({
 
     -- Telescope
     { "nvim-telescope/telescope.nvim",    tag = "0.1.4" },
-    { "nvim-lua/plenary.nvim",            tag = "0.1.4" },
+    { "nvim-lua/plenary.nvim",            tag = "v0.1.4" },
     { "telescope-fzf-native.nvim" },
 
     -- Treesitter
-    { "nvim-treesitter/nvim-treesitter",  tag = "0.9.1" },
+    { "nvim-treesitter/nvim-treesitter",  tag = "v0.9.1" },
     { "nvim-treesitter/playground" },
 
     -- Harppon
