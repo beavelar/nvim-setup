@@ -9,6 +9,7 @@ require('mason').setup({})
 require('mason-lspconfig').setup({
     ensure_installed = {
         'bashls',
+        'bufls',
         'dockerls',
         'docker_compose_language_service',
         'gopls',
@@ -23,6 +24,7 @@ require('mason-lspconfig').setup({
 
 lsp_zero.setup_servers({
     'bashls',
+    'bufls',
     'dockerls',
     'docker_compose_language_service',
     'gopls',
