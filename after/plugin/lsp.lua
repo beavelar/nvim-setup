@@ -17,6 +17,7 @@ require('mason-lspconfig').setup({
         'html',
         'jsonls',
         'sqlls',
+        'templ'
     },
     handlers = {
         lsp_zero.default_setup,
@@ -33,6 +34,7 @@ lsp_zero.setup_servers({
     'html',
     'jsonls',
     'sqlls',
+    'templ'
 })
 
 lsp_zero.set_preferences({
