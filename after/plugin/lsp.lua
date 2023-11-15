@@ -10,12 +10,13 @@ require('mason-lspconfig').setup({
     ensure_installed = {
         'bashls',
         'bufls',
+        'cssls',
         'dockerls',
         'docker_compose_language_service',
         'gopls',
         'html',
         'jsonls',
-        'sqlls'
+        'sqlls',
     },
     handlers = {
         lsp_zero.default_setup,
@@ -25,12 +26,13 @@ require('mason-lspconfig').setup({
 lsp_zero.setup_servers({
     'bashls',
     'bufls',
+    'cssls',
     'dockerls',
     'docker_compose_language_service',
     'gopls',
     'html',
     'jsonls',
-    'sqlls'
+    'sqlls',
 })
 
 lsp_zero.set_preferences({
