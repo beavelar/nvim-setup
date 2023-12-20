@@ -39,7 +39,11 @@ require("lazy").setup({
     { "L3MON4D3/LuaSnip" },
 
     -- Templ
-    { "vrischmann/tree-sitter-templ" }
+    { "vrischmann/tree-sitter-templ" },
+
+    -- Diffview
+    { "sindrets/diffview.nvim" },
+    { "nvim-tree/nvim-web-devicons" }
 })
 
 vim.cmd("colorscheme nightfly")
