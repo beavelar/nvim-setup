@@ -18,15 +18,15 @@ require("lazy").setup({
     { "bluz71/vim-nightfly-colors" },
 
     -- Telescope
-    { "nvim-telescope/telescope.nvim",    tag = "0.1.4" },
-    { "nvim-lua/plenary.nvim",            tag = "v0.1.4" },
+    { "nvim-telescope/telescope.nvim" },
+    { "nvim-lua/plenary.nvim" },
     { "telescope-fzf-native.nvim" },
 
     -- Treesitter
-    { "nvim-treesitter/nvim-treesitter",  tag = "v0.9.1" },
+    { "nvim-treesitter/nvim-treesitter" },
     { "nvim-treesitter/playground" },
 
-    -- Harppon
+    -- Harpoon
     { "theprimeagen/harpoon" },
 
     -- LSP
