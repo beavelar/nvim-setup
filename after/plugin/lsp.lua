@@ -8,7 +8,7 @@ require('mason').setup({})
 require('mason-lspconfig').setup({
     ensure_installed = {
         'bashls',
-        'bufls',
+        'buf_ls',
         'cssls',
         'dockerls',
         'docker_compose_language_service',
@@ -25,7 +25,7 @@ require('mason-lspconfig').setup({
 
 lsp_zero.setup_servers({
     'bashls',
-    'bufls',
+    'buf_ls',
     'cssls',
     'dockerls',
     'docker_compose_language_service',
